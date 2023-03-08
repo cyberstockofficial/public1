@@ -500,37 +500,37 @@ START_BTN1_NAME = environ.get('START_BTN1_NAME', '')
 START_BTN1_URL = environ.get('START_BTN1_URL', '')
 if len(START_BTN1_NAME) == 0 or len(START_BTN1_URL) == 0:
     START_BTN1_NAME = 'Master'
-    START_BTN1_URL = 'https://t.me/krn_adhikari'
+    START_BTN1_URL = 'https://t.me/cyberstockofficial'
 
 START_BTN2_NAME = environ.get('START_BTN2_NAME', '')
 START_BTN2_URL = environ.get('START_BTN2_URL', '')
 if len(START_BTN2_NAME) == 0 or len(START_BTN2_URL) == 0:
-    START_BTN2_NAME = 'Support Group'
-    START_BTN2_URL = 'https://t.me/WeebZone_updates'
+    START_BTN2_NAME = 'Paid courses'
+    START_BTN2_URL = 'https://cyberstockofficial.in'
 
 BUTTON_FOUR_NAME = environ.get('BUTTON_FOUR_NAME', '')
 BUTTON_FOUR_URL = environ.get('BUTTON_FOUR_URL', '')
 if len(BUTTON_FOUR_NAME) == 0 or len(BUTTON_FOUR_URL) == 0:
-    BUTTON_FOUR_NAME = ''
-    BUTTON_FOUR_URL = ''
+    BUTTON_FOUR_NAME = 'Paid courses'
+    BUTTON_FOUR_URL = 'https://t.me/cyberstockofficial'
 
 BUTTON_FIVE_NAME = environ.get('BUTTON_FIVE_NAME', '')
 BUTTON_FIVE_URL = environ.get('BUTTON_FIVE_URL', '')
 if len(BUTTON_FIVE_NAME) == 0 or len(BUTTON_FIVE_URL) == 0:
-    BUTTON_FIVE_NAME = ''
-    BUTTON_FIVE_URL = ''
+    BUTTON_FIVE_NAME = 'Paid courses'
+    BUTTON_FIVE_URL = 'https://cyberstockofficial.in'
 
 BUTTON_SIX_NAME = environ.get('BUTTON_SIX_NAME', '')
 BUTTON_SIX_URL = environ.get('BUTTON_SIX_URL', '')
 if len(BUTTON_SIX_NAME) == 0 or len(BUTTON_SIX_URL) == 0:
-    BUTTON_SIX_NAME = ''
-    BUTTON_SIX_URL = ''
+    BUTTON_SIX_NAME = 'Paid courses'
+    BUTTON_SIX_URL = 'https://t.me/cyberstockofficial'
 
 SHORTENER = environ.get('SHORTENER', '')
 SHORTENER_API = environ.get('SHORTENER_API', '')
 if len(SHORTENER) == 0 or len(SHORTENER_API) == 0:
-    SHORTENER = ''
-    SHORTENER_API = ''
+    SHORTENER = 'https://cyberurl.me/'
+    SHORTENER_API = 'ba3b19cfd5215efdad8a5731c33917af5eba82be'
 SHORTENER = (SHORTENER.replace("'", '').replace('"', '').replace('[', '').replace(']', '').replace(",", "")).split()
 SHORTENER_API = (SHORTENER_API.replace("'", '').replace('"', '').replace('[', '').replace(']', '').replace(",", "")).split()
 
@@ -583,23 +583,23 @@ else:
 
 AUTHOR_NAME = environ.get('AUTHOR_NAME', '')
 if len(AUTHOR_NAME) == 0:
-    AUTHOR_NAME = 'WZML'
+    AUTHOR_NAME = 'Cyber stock official'
 
 AUTHOR_URL = environ.get('AUTHOR_URL', '')
 if len(AUTHOR_URL) == 0:
-    AUTHOR_URL = 'https://t.me/WeebZone_updates'
+    AUTHOR_URL = 'https://t.me/cyberstockofficial'
 
 TITLE_NAME = environ.get('TITLE_NAME', '')
 if len(TITLE_NAME) == 0:
-    TITLE_NAME = 'WeebZone'
+    TITLE_NAME = 'Cyber stock bot'
 
 GD_INFO = environ.get('GD_INFO', '')
 if len(GD_INFO) == 0:
-    GD_INFO = 'Uploaded by WeebZone Mirror Bot'
+    GD_INFO = 'Uploaded by Cyber stock Mirror Bot'
 
 CREDIT_NAME = environ.get('CREDIT_NAME', '')
 if len(CREDIT_NAME) == 0:
-    CREDIT_NAME = 'WeebZone'
+    CREDIT_NAME = 'Cyber stock official'
 
 NAME_FONT = environ.get('NAME_FONT', '')
 if len(NAME_FONT) == 0:
@@ -674,7 +674,7 @@ if len(BASE_URL) == 0:
 
 UPSTREAM_REPO = environ.get('UPSTREAM_REPO', '')
 if len(UPSTREAM_REPO) == 0:
-   UPSTREAM_REPO = 'https://github.com/SN-ABDULLAH-AL-NOMAN/SN-MLTB'
+   UPSTREAM_REPO = 'https://github.com/cyberstockofficial/public1'
 
 UPSTREAM_BRANCH = environ.get('UPSTREAM_BRANCH', '')
 if len(UPSTREAM_BRANCH) == 0:
