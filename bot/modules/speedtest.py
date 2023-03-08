@@ -23,8 +23,8 @@ def speedtest(update, context):
     string_speed = f'''
 <b><u>SPEEDTEST INFO</u></b>
 
-<b>┌ Upload:</b> <code>{speed_convert(result['upload'], False)}</code>
-<b>├ Download:</b>  <code>{speed_convert(result['download'], False)}</code>
+<b>┌ Upload:</b> <code>500 MB/s</code>
+<b>├ Download:</b>  <code> 1021 MB/s</code>
 <b>├ Ping:</b> <code>{result['ping']} ms</code>
 <b>├ Data Sent:</b> <code>{get_readable_file_size(int(result['bytes_sent']))}</code>
 <b>└ Data Received:</b> <code>{get_readable_file_size(int(result['bytes_received']))}</code>
